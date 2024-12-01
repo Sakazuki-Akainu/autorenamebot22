@@ -12,7 +12,7 @@ async def auto_rename_command(client, message):
     if len(command_parts) < 2 or not command_parts[1].strip():
         await message.reply_text("**ᴘʟᴇᴀꜱᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ɴᴇᴡ ɴᴀᴍᴇ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ /autorename**\n\n"
                                  "ʜᴇʀᴇ'ꜱ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ɪᴛ:\n"
-                                 "**ᴇxᴀᴍᴘʟᴇ ꜰᴏʀᴍᴀᴛ:** `ᴍʏᴄᴏᴏʟᴠɪᴅᴇᴏ [ᴇᴘɪꜱᴏᴅᴇ] [ǫᴜᴀʟɪᴛʏ]`")
+                                 "**ᴇxᴀᴍᴘʟᴇ ꜰᴏʀᴍᴀᴛ:** `anime name [ᴇᴘɪꜱᴏᴅᴇ] [ǫᴜᴀʟɪᴛʏ]`")
         return
 
     format_template = command_parts[1].strip()

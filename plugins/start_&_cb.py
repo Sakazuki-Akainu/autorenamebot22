@@ -16,6 +16,12 @@ async def start(client, message: Message):
     # Initial interactive text and sticker sequence
     m = await message.reply_text("STARTING. . .")
     await asyncio.sleep(0.4)
+    await m.edit_text("🎊")
+    await asyncio.sleep(0.5)
+    await m.edit_text("⚡")
+    await asyncio.sleep(0.5)
+    await m.edit_text("ꜱᴛᴀʀᴛɪɴɢ...")
+    await asyncio.sleep(0.4)
     await m.delete()
 
     # Send sticker after the text sequence
